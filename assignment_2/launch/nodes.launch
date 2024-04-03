@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <node name="node_a" pkg="assignment_2" type="node_a" output="screen" />
+    <node name="detection" pkg="assignment_2" type="detection" output="screen" />
+    <node name="moving_arm" pkg="assignment_2" type="moving_arm" output="screen" />
+</launch>

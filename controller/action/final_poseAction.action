@@ -1,0 +1,13 @@
+#goal definition
+controller/final_pose pose
+
+---
+#result definition
+controller/obstacle_msg obstacle_pose
+bool goal_reached
+---
+#feedback
+float32 current_x
+float32 current_y
+float32 current_theta
+string status
